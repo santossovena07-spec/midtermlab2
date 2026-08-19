@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cars by Sove | Cars &amp; Transportation Showcase</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <i class="bi bi-steering-wheel"></i> Cars by <span>Sove</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://loremflickr.com/1600/700/sports+car,road?lock=101" class="d-block w-100" alt="Sports car on the road">
+        <div class="carousel-caption">
+          <h1>Made for the Road</h1>
+          <p class="d-none d-md-block">A collection of cool rides—from fast sports cars to simple city buses.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://loremflickr.com/1600/700/suv,offroad?lock=102" class="d-block w-100" alt="Off-road SUV">
+        <div class="carousel-caption">
+          <h1>Ready for Adventure</h1>
+          <p class="d-none d-md-block">Strong trucks and SUVs built to handle dirt roads and tough trips.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://loremflickr.com/1600/700/city,bus,transportation?lock=103" class="d-block w-100" alt="City transportation">
+        <div class="carousel-caption">
+          <h1>Keeping Cities Moving</h1>
+          <p class="d-none d-md-block">From classic rides to electric trains, see how people get around every day.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</header>
+
+<section id="categories" class="py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <span class="badge rounded-pill sub-badge">Explore</span>
+      <h2>Choose a Category</h2>
+      <p class="text-muted">Six fun groups of vehicles to check out.</p>
+    </div>
+
+    <div class="row g-3 g-md-4">
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-speedometer2"></i>
+          <h6>Sports Cars</h6>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-truck-front"></i>
+          <h6>SUVs &amp; Trucks</h6>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-car-front"></i>
+          <h6>Classic Cars</h6>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-ev-station"></i>
+          <h6>Electric</h6>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-bus-front"></i>
+          <h6>Public Transit</h6>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <a href="#gallery" class="cat-card">
+          <i class="bi bi-bicycle"></i>
+          <h6>Motorcycles</h6>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light-grey">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-7">
+        <img src="https://loremflickr.com/900/600/car,showroom?lock=104" class="img-fluid rounded-4 shadow" alt="Featured vehicle">
+      </div>
+      <div class="col-md-5">
+        <span class="badge rounded-pill sub-badge">Featured</span>
+        <h2 class="mt-2">Great Design and Power</h2>
+        <p class="text-muted">Every vehicle here is built for a reason. Some are made for high speed, while others are built to take you to work comfortably every single day.</p>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <span class="badge bg-dark">Performance</span>
+          <span class="badge bg-secondary">Design</span>
+          <span class="badge bg-dark">Speed</span>
+          <span class="badge bg-secondary">Efficiency</span>
+        </div>
+        <a href="#gallery" class="btn btn-luxury mt-4 px-4">See Gallery <i class="bi bi-arrow-down"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <span class="badge rounded-pill sub-badge">Gallery</span>
+      <h2>The Collection</h2>
+      <p class="text-muted">Click any picture to see more details.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/sports+car,red?lock=1" alt="Velocity GT sports car">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal1">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Velocity GT</h6>
+            <p>A fast sports car built for tight turns.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/convertible,sports+car?lock=2" alt="Apex Speedster convertible">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal2">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Apex Speedster</h6>
+            <p>A fun open-top car for sunny drives.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/suv,offroad?lock=3" alt="Trailblazer X4 SUV">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal3">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Trailblazer X4</h6>
+            <p>A tough SUV that handles rough roads easily.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/pickup+truck?lock=4" alt="Haulmaster 350 pickup truck">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal4">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Haulmaster 350</h6>
+            <p>A heavy truck made for carrying big loads.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/classic+car,vintage?lock=5" alt="Heritage Cruiser classic car">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal5">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Heritage Cruiser</h6>
+            <p>A beautiful old car restored to look new.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/classic+car,convertible?lock=6" alt="Vintage Roadster classic convertible">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal6">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Vintage Roadster</h6>
+            <p>A simple classic car with retro style.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/electric+car,sedan?lock=7" alt="Volt Sedan electric car">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal7">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Volt Sedan</h6>
+            <p>A quiet electric car that uses no gas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/electric+scooter?lock=8" alt="Spark E-Scooter">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal8">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Spark E-Scooter</h6>
+            <p>A small electric ride for quick city trips.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/city+bus?lock=9" alt="Metro Liner city bus">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal9">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Metro Liner Bus</h6>
+            <p>A city bus made for daily passengers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/passenger+train?lock=10" alt="Rail Express passenger train">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal10">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Rail Express</h6>
+            <p>A fast train connecting towns to the city.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/motorcycle,sport?lock=11" alt="Nightfall 650 sport motorcycle">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal11">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Nightfall 650</h6>
+            <p>A fast bike built for windy roads.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+        <div class="gallery-card">
+          <div class="img-wrap">
+            <img src="https://loremflickr.com/600/450/motorcycle,cruiser?lock=12" alt="Roadking Cruiser motorcycle">
+            <div class="overlay">
+              <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal12">
+                <i class="bi bi-zoom-in"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h6>Roadking Cruiser</h6>
+            <p>A comfy motorcycle for long highway rides.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modals -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Velocity GT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/sports+car,red?lock=1" class="img-fluid rounded-3 mb-3 w-100" alt="Velocity GT">
+        <p class="text-muted mb-0">A light sports car built for track days, made to turn fast and run smoothly at high speeds.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Apex Speedster</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/convertible,sports+car?lock=2" class="img-fluid rounded-3 mb-3 w-100" alt="Apex Speedster">
+        <p class="text-muted mb-0">An open-top sports car shaped to cut through the wind and give you a fun driving experience.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Trailblazer X4</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/suv,offroad?lock=3" class="img-fluid rounded-3 mb-3 w-100" alt="Trailblazer X4">
+        <p class="text-muted mb-0">A tough SUV made for outdoor trips, equipped with strong wheels and all-wheel drive for bumpy trails.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Haulmaster 350</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/pickup+truck?lock=4" class="img-fluid rounded-3 mb-3 w-100" alt="Haulmaster 350">
+        <p class="text-muted mb-0">A powerful pickup truck made to pull heavy trailers and carry big loads for work.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Heritage Cruiser</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/classic+car,vintage?lock=5" class="img-fluid rounded-3 mb-3 w-100" alt="Heritage Cruiser">
+        <p class="text-muted mb-0">A neatly fixed-up old car with shiny chrome details and classic shapes from the past.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Vintage Roadster</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/classic+car,convertible?lock=6" class="img-fluid rounded-3 mb-3 w-100" alt="Vintage Roadster">
+        <p class="text-muted mb-0">A retro convertible car with simple curves that shows off classic mid-century style.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal7" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Volt Sedan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/electric+car,sedan?lock=7" class="img-fluid rounded-3 mb-3 w-100" alt="Volt Sedan">
+        <p class="text-muted mb-0">An electric car that charges fast, makes no engine noise, and gives you a smooth ride.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal8" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Spark E-Scooter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/electric+scooter?lock=8" class="img-fluid rounded-3 mb-3 w-100" alt="Spark E-Scooter">
+        <p class="text-muted mb-0">A small electric scooter built for quick daily rides around city streets.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal9" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Metro Liner Bus</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/city+bus?lock=9" class="img-fluid rounded-3 mb-3 w-100" alt="Metro Liner Bus">
+        <p class="text-muted mb-0">A city bus made to carry many passengers comfortably on their everyday routes.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal10" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Rail Express</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://image.isu.pub/231008213205-854e9ea68467719ac8b592d3d07a05e3/jpg/page_1_thumb_large.jpg" class="img-fluid rounded-3 mb-3 w-100" alt="Rail Express">
+        <p class="text-muted mb-0">A train that carries people quickly and safely from nearby towns right into the city center.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal11" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Nightfall 650</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/motorcycle,sport?lock=11" class="img-fluid rounded-3 mb-3 w-100" alt="Nightfall 650">
+        <p class="text-muted mb-0">A sport motorcycle with a strong motor made for easy turns on winding roads.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal12" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Roadking Cruiser</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://loremflickr.com/1000/700/motorcycle,cruiser?lock=12" class="img-fluid rounded-3 mb-3 w-100" alt="Roadking Cruiser">
+        <p class="text-muted mb-0">A comfortable motorcycle built for long trips on open highways.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="py-5 bg-light-grey">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-md-6">
+        <span class="badge rounded-pill sub-badge">About Cars by Sove</span>
+        <h2 class="mt-2">Why We Made This Site</h2>
+        <p class="text-muted">Cars by Sove is a simple gallery showing different ways people move around—from fast cars to daily buses. We built this site as a quick web design practice project.</p>
+        <div class="row text-center mt-4 g-3">
+          <div class="col-4">
+            <h3 class="mb-0">12+</h3>
+            <small class="text-muted">Vehicles</small>
+          </div>
+          <div class="col-4">
+            <h3 class="mb-0">6</h3>
+            <small class="text-muted">Categories</small>
+          </div>
+          <div class="col-4">
+            <h3 class="mb-0">100%</h3>
+            <small class="text-muted">Responsive</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                What is a sports car?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">It is a car built for speed, quick turns, and fun driving instead of just carrying many passengers.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Why is city transport important?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Buses and trains move many people at once, which cuts down road traffic and keeps city air cleaner.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                How do electric cars work?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Electric cars run on battery power instead of gas, making them quiet and better for the environment.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <span class="badge rounded-pill sub-badge">Contact</span>
+      <h2>Get In Touch</h2>
+      <p class="text-muted">Have a ride you want us to add? Send us a message.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-md-6">
+        <form onsubmit="return false;">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+              <input type="email" class="form-control" placeholder="Enter email">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" placeholder="Tell us about your vehicle..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-luxury px-4">Send Message <i class="bi bi-send"></i></button>
+        </form>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="contact-info p-4 h-100">
+          <h5 class="mb-3">Visit Our Showroom</h5>
+          <p><i class="bi bi-geo-alt"></i> 123 Motor Avenue, Cabuyao, Laguna</p>
+          <p><i class="bi bi-telephone"></i> (049) 123-4567</p>
+          <p><i class="bi bi-clock"></i> Mon - Sat, 9:00 AM - 6:00 PM</p>
+          <div class="d-flex gap-2 mt-4">
+            <a href="#" class="social-icon" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="mb-1">Cars by <span>Sove</span> &mdash; Cars &amp; Transportation Showcase</p>
+    <small class="text-muted">Laboratory Exercise &mdash; Built with HTML5, CSS3 &amp; Bootstrap 5</small>
+  </div>
+</footer>
+
+<a href="#home" class="btn rounded-circle" id="backToTop"><i class="bi bi-arrow-up"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
